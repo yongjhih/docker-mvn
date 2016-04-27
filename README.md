@@ -5,7 +5,7 @@
 Install mvn wrapper:
 
 ```sh
-docker run -it --rm -v "$PWD":/src-w /src maven mvn -N io.takari:maven:wrapper
+docker run -it --rm -v "$PWD":/src -w /src maven mvn -N io.takari:maven:wrapper
 ```
 
 Install mvn wrapper 3.3.3:
