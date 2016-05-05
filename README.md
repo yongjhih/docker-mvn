@@ -19,6 +19,13 @@ Install mvn wrapper 3.3.3:
 docker run -it --rm -v "$PWD":/src -w /src maven mvn -N io.takari:maven:wrapper -Dmaven=3.3.3
 ```
 
+Install mvn as container:
+
+```sh
+curl -L https://github.com/yongjhih/docker-mvn/raw/master/mvn > ~/bin/mvn && chmod a+x ~/bin/mvn
+```
+
+
 ## See Also
 
 * https://github.com/carlossg/docker-maven/
